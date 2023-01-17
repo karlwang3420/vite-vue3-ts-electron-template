@@ -19,8 +19,8 @@ setTimeout(async () => {
       height="125"
     />
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+    <div flex flex-col sm="flex-row" justify-center items-center>
+      <h1 text="2xl green-500" whitespace-nowrap>You did it!</h1>
 
       <nav>
         <RouterLink to="/">Home</RouterLink>

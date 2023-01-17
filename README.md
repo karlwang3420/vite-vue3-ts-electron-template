@@ -52,7 +52,6 @@ But it's still recommended to test the production build with `test:e2e` before d
 
 ```sh
 pnpm build
-pnpm test:e2e
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
